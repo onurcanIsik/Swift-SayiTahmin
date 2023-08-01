@@ -16,6 +16,8 @@
 		6FFE0B352A79612200C66D00 /* sayiTahminTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE0B342A79612200C66D00 /* sayiTahminTests.swift */; };
 		6FFE0B3F2A79612200C66D00 /* sayiTahminUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE0B3E2A79612200C66D00 /* sayiTahminUITests.swift */; };
 		6FFE0B412A79612200C66D00 /* sayiTahminUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE0B402A79612200C66D00 /* sayiTahminUITestsLaunchTests.swift */; };
+		6FFE0B4E2A7967BD00C66D00 /* secondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE0B4D2A7967BD00C66D00 /* secondVC.swift */; };
+		6FFE0B502A7967C800C66D00 /* thirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE0B4F2A7967C800C66D00 /* thirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		6FFE0B3A2A79612200C66D00 /* sayiTahminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sayiTahminUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FFE0B3E2A79612200C66D00 /* sayiTahminUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sayiTahminUITests.swift; sourceTree = "<group>"; };
 		6FFE0B402A79612200C66D00 /* sayiTahminUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sayiTahminUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6FFE0B4D2A7967BD00C66D00 /* secondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondVC.swift; sourceTree = "<group>"; };
+		6FFE0B4F2A7967C800C66D00 /* thirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				6FFE0B262A79612200C66D00 /* Assets.xcassets */,
 				6FFE0B282A79612200C66D00 /* LaunchScreen.storyboard */,
 				6FFE0B2B2A79612200C66D00 /* Info.plist */,
+				6FFE0B4D2A7967BD00C66D00 /* secondVC.swift */,
+				6FFE0B4F2A7967C800C66D00 /* thirdVC.swift */,
 			);
 			path = sayiTahmin;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FFE0B502A7967C800C66D00 /* thirdVC.swift in Sources */,
 				6FFE0B222A79612100C66D00 /* ViewController.swift in Sources */,
 				6FFE0B1E2A79612100C66D00 /* AppDelegate.swift in Sources */,
+				6FFE0B4E2A7967BD00C66D00 /* secondVC.swift in Sources */,
 				6FFE0B202A79612100C66D00 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

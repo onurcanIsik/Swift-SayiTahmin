@@ -11,9 +11,16 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "Ana Sayfa"
     }
 
-
+    @IBAction func startBtn(_ sender: Any) {
+        let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+        let gidilicekSayfa = storyBoard.instantiateViewController(identifier: "sayfaB") as secondVC
+        
+        self.navigationController?.pushViewController(gidilicekSayfa, animated: true)
+    }
+    
 }
 
